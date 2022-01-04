@@ -6,8 +6,6 @@
     .header-name {
         font-size: 3.4rem;
     }
-    .content {
-    }
     .music-control {
         opacity: .1;
     }
@@ -54,17 +52,19 @@
     .btn--yes {
         position: absolute;
         width: var(--width-btn);
-        left: 30px;
+        left: 50%;
+        transform: translateX(-50%);
         top: 100px
     }
     .btn--no {
         width: var(--width-btn);
         position: absolute;
         top: 280px;
-        left: 30px;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .message-modal {
-        width: 430px;
+        width: 95vw;
     }
     .heading-name {
         padding: 0 12px;
